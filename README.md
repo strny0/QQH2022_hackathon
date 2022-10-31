@@ -1,4 +1,4 @@
-# Qminer Quant Hackaton Kick-off
+# Qminer Quant Hackathon Kick-off
 
 V tomto repozitáři najdeš vše potřebné k odladění tvého modelu, aby tě odevzdávací systém ničím nepřekvapil.
 
