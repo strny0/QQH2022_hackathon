@@ -8,7 +8,7 @@ Vše potřebné pro úspěšný start najdeš na: https://github.com/IDA-CTU/QQH
 
 V systému pak najdeš dva problémy. "Beat the Bookie Qualification" je soutěžní úloha, kde se tvůj model vyhodnotí na skrytých validačních datech. "Beat the Bookie Debug" vyhodnotí tvůj model na zápasech mezi daty 2005-08-01 a 2006-08-01. Tato úloha slouží pro ověření, že se tvůj kód chová stejně zde jako na tvém stroji. Debug úloha nemá žádný vliv na celkové pořadí.
 
-Ve finále Tě pak budou čekat nová, testovací data. Počítej s tím, že nemusí být úplně stejná jako ta validační, a snaž se úlohu řešit dostatečně obecně.
+Ve finále Tě pak budou čekat nová, testovací data. Počítej s tím, že nemusí být úplně přesně stejná jako ta validační, a snaž se úlohu řešit dostatečně obecně.
 
 Pár technických informací a pravidel, než začneš:
 
