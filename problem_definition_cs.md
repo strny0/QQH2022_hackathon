@@ -83,13 +83,13 @@ Je tedy možné vsadit na dannou příležitost vícekrát.
 Tento DataFrame očekáváme jako vaší odpověď.
 I pokud nechcete pokládat žádné sázky, musíte poslat (alespoň prázdný) DataFrame.
 
-|   MatchID |     BetH |     BetD |     BetA |
-|----------:|---------:|---------:|---------:|
-|     27435 | 5.5 | 0 | 0 |
-|     27444 | 0 | 15 | 21.7 |
-|     27437 | 23.7 | 0 | 0 |
-|     27438 | 0 | 0 | 0 |
-|     27439 | 0 | 0 | 7.91 |
+|   MatchID |     BetH |     BetA |
+|----------:|---------:|---------:|
+|     27435 | 5.5 | 0 |
+|     27444 | 0 | 21.7 |
+|     27437 | 23.7 | 0 |
+|     27438 | 0 | 0 |
+|     27439 | 0 | 7.91 |
 
 ### Technické náležitosti
 
