@@ -1,7 +1,7 @@
 ## Úvod do sportovního sázení
 
 Sportovní sázení je hra dvou hráčů: bookmakera a sázkaře.
-Úlohou bookmakera je nabizet sázkařům příležitosti k sázkám s cílem maximalizovat svůj vlastní získ.
+Úlohou bookmakera je nabízet sázkařům příležitosti k sázkám s cílem maximalizovat svůj vlastní získ.
 Blíží-li se tedy například nějaké hokejové utkání dvou týmů, bookmaker vypíše tzv. kurzy na možné výsledky.
 Sázkař si může zvolit, na které zápasy a výsledky by si chtěl vsadit.
 V případě, že si sázkař vsadí na výsledek, který nastane, vyhrává sázkař vloženou sázku vynásobenou kurzem bookmakera.
@@ -19,7 +19,7 @@ Ve finále má sázkař na kontě 1010 Kč.
 Vaším úkolem bude naprogramovat co nejúspešnějšího sázkaře.
 V naší soutěži však nebude rozhodovat počet shédnutých zápasů, nýbrž vaše schopnost navrhnout, implementovat a otestovat model, který se naučí predikovat výsledky nadcházejících zápasů z historických dat. 
 
-Jelikož jednotlivé ročníky ligových soutěží (sezóny) trvají několik měsíců, bude se váš model v průběhu sezóny adaptovat na nová data. 
+Jelikož jednotlivé ročníky soutěží (sezóny) trvají několik měsíců, bude se váš model v průběhu sezóny adaptovat na nová data. 
 
 Každý den, kdy jsou na trhu nějaké sázkařské příležitosti, obdržíte inkrement dat, sázkařské příležitosti a shrnutí.
 Od vás budeme očekávat sázky, které si přejete uskutečnit.
@@ -57,18 +57,18 @@ Počítejte s tím, že první inkrement který uvidíte, bude obsahovat i zápa
 - OddsH/A - Bookmakerovy kurzy pro daný výsledek
 - HSC - Výsledné skóre domácích
 - ASC - Výsledné skóre hostí
-- H/A - Binární idikátor výhry domácích/hostí
+- H/A - Binární indikátor výhry domácích/hostí
 - S_H/A - Střely na bránu daného týmu
 - PIM_H/A - Trestné minuty daného týmu
 - PPG_H/A - Góly v přesilovkách daného týmu
 - FOW_H/A - Vyhraná vhazování daného týmu
-- BetH/A - Celkový objem vašich sázek na daný výsledek
+- BetH/A - Celkový objem Tvých sázek na daný výsledek
 
 ### DataFrame sázkařských příležitostí
 
 Sázkařské příležitosti obsahují zápasy hrané v nadcházejících dnech.
 Příležitosti jsou platné do data konání zápasu (včetně).
-Je tedy možné vsadit na dannou příležitost vícekrát.
+Je tedy možné vsadit na danou příležitost vícekrát.
 
 |   MatchID |   Sea | Date       |   HID |   AID |   OddsH |   OddsA |     BetH |     BetA |
 |----------:|------:|:-----------|------:|------:|--------:|--------:|---------:|---------:|
