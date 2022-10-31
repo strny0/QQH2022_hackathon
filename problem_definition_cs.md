@@ -98,3 +98,8 @@ I pokud nechcete pokládat žádné sázky, musíte poslat (alespoň prázdný) 
 - Pokud bookmakerovi pošlete sázky na jiné příležitosti, než které vám přisly, budou ignorovány.
 - Pokud nebudete mít dostatek prostředků pro vaše sázky, budou ignorovány.
 - Sázky > max_bet a sázky < min_bet budou ignorovány.
+
+### Časté problémy
+
+- Nejčastější chyba v upload systému je spojena s tím, že se váš kód v evaluační smyčce na hyperionu dostane do stavu, na který není připraven.
+  - Například "RTE: KeyError" - zkontrolujte si zda je váš kód připravený na prázdný Dataframe příležitostí, nově se vyskytující ID týmu, apod.
