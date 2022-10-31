@@ -1,6 +1,6 @@
 # Qminer Quant Hackathon Kick-off
 
-V tomto repozitáři najdeš vše potřebné k odladění tvého modelu, aby tě odevzdávací systém ničím nepřekvapil.
+V tomto repozitáři najdeš vše potřebné k odladění tvého modelu, aby Tě odevzdávací systém ničím nepřekvapil.
 
 Odevzdávací systém beží na webu [hyperion.felk.cvut.cz](https://hyperion.felk.cvut.cz/).
 
@@ -24,7 +24,7 @@ Vývojová prostředí (IDE) často umí s conda environmenty pracovat (napřík
 
 Pro ověření funčnosti můžeš rovnou spustit evaluaci modelu, který sází náhodně: `python evaluate.py`
 
-Pokud pro své řešení potřebuješ knihovnu, které v runtime.yml není, napiš nám, pokusíme se ti vyhovět.
+Pokud pro své řešení potřebuješ knihovnu, které v runtime.yml není, napiš nám, pokusíme se Ti vyhovět.
 
 ## Vlastní řešení
 
@@ -34,6 +34,6 @@ Bližší info najdeš v samotném [zadání](https://github.com/IDA-CTU/QQH2022
 
 ## Evaluace
 
-Evaluace v odevzdávacím systému probíhá na skrytých (testovacích) datech. Trénovací [data](https://github.com/IDA-CTU/QQH2022/blob/master/data/training_data.csv) obsahují zápasy ze sezón 2000/01-2005/06.
-Testovací data obsahují zápasy ze sezón 2006/07-2009/10.
+Evaluace v odevzdávacím systému probíhá na skrytých (validačních) datech. Trénovací (debugovací) [data](https://github.com/IDA-CTU/QQH2022/blob/master/data/training_data.csv) obsahují zápasy ze sezón 2000/01-2005/06.
+Validační data obsahují zápasy ze sezón 2006/07-2009/10.
 V první iteraci [evaluační smyčky](https://github.com/IDA-CTU/QQH2022/blob/master/src/environment.py#L37) obdržíš jako [inkrement](https://github.com/IDA-CTU/QQH2022/blob/master/problem_definition_cs.md#dataframe-inkrement%C3%A1ln%C3%ADch-dat) všechna trénovací data.
