@@ -34,6 +34,6 @@ Bližší info najdeš v samotném [zadání](https://github.com/IDA-CTU/QQH2022
 
 ## Evaluace
 
-Evaluace v odevzdávacím systému probíhá na skrytých (testovacích) datech. Trénovací [data](https://github.com/IDA-CTU/QQH2022/blob/master/data/training_data.csv) obsahují zápasy ze sezón 2000-2005.
-Testovací data obsahují zápasy ze sezón 2006-2009.
+Evaluace v odevzdávacím systému probíhá na skrytých (testovacích) datech. Trénovací [data](https://github.com/IDA-CTU/QQH2022/blob/master/data/training_data.csv) obsahují zápasy ze sezón 2000/01-2005/06.
+Testovací data obsahují zápasy ze sezón 2006/07-2009/10.
 V první iteraci [evaluační smyčky](https://github.com/IDA-CTU/QQH2022/blob/master/src/environment.py#L37) obdržíš jako [inkrement](https://github.com/IDA-CTU/QQH2022/blob/master/problem_definition_cs.md#dataframe-inkrement%C3%A1ln%C3%ADch-dat) všechna trénovací data.
