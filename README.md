@@ -6,8 +6,8 @@ Odevzdávací systém beží na webu [hyperion.felk.cvut.cz](https://hyperion.fe
 
 ## Struktura repozitáře
 * data/train_dataset.csv obsahuje trénovací data
-* intro.md obsahuje obecný úvod do hackatonu
-* problem_definition_cs.md obsahuje [zadání](https://github.com/IDA-CTU/QQH2022/blob/master/problem_definition_cs.md) úlohy včetně popisu dat
+* intro.md obsahuje obecný [úvod](https://github.com/IDA-CTU/QQH2022/blob/master/intro.md) do hackatonu
+* problem_definition_cs.md obsahuje detailní [zadání](https://github.com/IDA-CTU/QQH2022/blob/master/problem_definition_cs.md) úlohy včetně popisu dat
 * runtime.yml obsahuje runtime prostředí
 * src/environment.py obsahuje evaluační smyčku, která běží v odevzdávacím systému
 * src/evaluate.py skript pro evaluaci Tvého modelu
