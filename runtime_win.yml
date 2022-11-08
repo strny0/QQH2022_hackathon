@@ -1,4 +1,4 @@
-name: runtime
+name: hackathon
 channels:
   - pytorch
   - defaults
@@ -89,4 +89,3 @@ dependencies:
   - xz=5.2.6
   - zlib=1.2.13
   - zstd=1.5.2
-prefix: /opt/miniconda3/envs/runtime
